@@ -1,0 +1,89 @@
+import { Link } from "react-router-dom";
+import { Activity, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Github } from "lucide-react";
+
+const Footer = () => {
+  return (
+    <footer className="frosted mt-20 shadow-soft border-t border-border/60">
+      <div className="container mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          {/* Logo and Description */}
+          <div className="space-y-4">
+            <Link to="/" className="flex items-center space-x-2">
+              <span className="text-xl font-bold text-foreground">Medora</span>
+            </Link>
+            <p className="text-muted-foreground text-sm leading-relaxed">
+              AI-powered health risk prediction platform providing accurate chronic disease analysis 
+              with patient-friendly insights.
+            </p>
+          </div>
+
+          {/* Quick Links */}
+          <div className="space-y-4">
+            <h3 className="font-semibold text-foreground">Quick Links</h3>
+            <div className="space-y-2">
+              <Link to="/" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+                Home
+              </Link>
+              <Link to="/disease-selection" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+                Get Started
+              </Link>
+              <a href="#features" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+                Features
+              </a>
+              <a href="#contact" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+                Contact
+              </a>
+            </div>
+          </div>
+
+          {/* Services */}
+          <div className="space-y-4">
+            <h3 className="font-semibold text-foreground">Services</h3>
+            <div className="space-y-2">
+              <p className="text-muted-foreground text-sm">Disease Risk Analysis</p>
+              <p className="text-muted-foreground text-sm">Health Monitoring</p>
+              <p className="text-muted-foreground text-sm">Clinical Insights</p>
+              <p className="text-muted-foreground text-sm">Patient Reports</p>
+            </div>
+          </div>
+
+          {/* Contact Info */}
+          <div className="space-y-4">
+            <h3 className="font-semibold text-foreground">Contact</h3>
+            <div className="space-y-3">
+              <div className="flex items-center space-x-2 text-muted-foreground text-sm">
+                <Mail className="h-4 w-4" />
+                <span>medora@vitstudent.ac.in</span>
+              </div>
+              <div className="flex items-center space-x-2 text-muted-foreground text-sm">
+                <Phone className="h-4 w-4" />
+                <span>+91 9983577988</span>
+              </div>
+              <div className="flex items-center space-x-2 text-muted-foreground text-sm">
+                <MapPin className="h-4 w-4" />
+                <span>C block, VIT Chennai</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Section */}
+        <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-muted-foreground text-sm">
+            © 2025 Medora. All rights reserved.
+          </p>
+          
+          {/* Social Links */}
+          <div className="flex space-x-4 mt-4 md:mt-0">
+            
+            <a href="https://github.com/mishtimattu21/hackwell-medora.git" className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform">
+              <Github className="h-5 w-5" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
