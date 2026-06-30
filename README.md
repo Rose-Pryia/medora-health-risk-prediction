@@ -1,7 +1,8 @@
 # <img src="frontend/public/logo_butterfly.png" alt="Medora Logo" width="40" height="40"> Medora
 
-## AI-Powered Health Risk Prediction Platform
-_Transforming healthcare through intelligent risk assessment and predictive analytics_
+# 🩺 Medora: AI-Powered Clinical Decision Support System
+
+> Predicting 90-day chronic disease deterioration risk using machine learning, temporal feature engineering, and explainable AI.
 
 ## Overview
 
