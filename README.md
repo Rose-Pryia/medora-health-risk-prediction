@@ -1,12 +1,27 @@
-# <img src="frontend/public/logo_butterfly.png" alt="Medora Logo" width="40" height="40"> Medora
-
-# 🩺 Medora: AI-Powered Clinical Decision Support System
+# <img src="frontend/public/logo_butterfly.png" alt="Medora Logo" width="40" height="40"> Medora : AI-Powered Clinical Decision Support System
 
 > Predicting 90-day chronic disease deterioration risk using machine learning, temporal feature engineering, and explainable AI.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6F00?style=for-the-badge)
 
 ## Overview
 
 Medora is a comprehensive AI-powered health risk prediction platform designed to assist healthcare providers in identifying patients at risk of health deterioration within 90 days. The platform combines advanced machine learning models with clinical expertise to provide actionable insights for preventive care and early intervention.
+
+## ✨ Project Highlights
+
+- 🏥 Predicts 90-day deterioration risk for chronic diseases
+- 🤖 Disease-specific AI models for Diabetes, Hypertension, Heart Failure and Weight Management
+- 📈 Temporal feature engineering using historical patient trends
+- 🧠 Explainable AI to improve clinical decision making
+- 📄 Automated downloadable health reports
+- 🌐 Deployed web application with clinician and patient workflows
 
 ### Mission
 
@@ -143,6 +158,19 @@ _Report in PDF Format for download_
 **Purpose**: Weight management and GLP-1 medication effectiveness
 **Key Parameters**: BMI, waist circumference, medication adherence, side effects
 **Use Case**: Obesity management and metabolic health programs
+
+---
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|----------|-------------|
+| Frontend | React, TypeScript |
+| Backend | FastAPI |
+| Machine Learning | XGBoost, Scikit-learn |
+| Database | Supabase |
+| AI Services | OpenAI |
+| Data Processing | Pandas, NumPy |
+| Deployment | Vercel, Render |
 
 ---
 
